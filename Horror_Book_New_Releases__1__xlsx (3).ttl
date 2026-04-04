@@ -1,0 +1,733 @@
+@prefix : <http://horrorbooknewreleases/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix viaf: <https://viaf.org/en/viaf/> .
+
+wd:Q3238422  rdf:type  schema:DefinedTerm .
+
+:20     schema:aggregateRating  _:b0 ;
+        schema:keywords         "1"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:numberOfPages    "27"^^xsd:int ;
+        schema:datePublished    "2025-11-12T07:00Z"^^xsd:date ;
+        schema:author           viaf:34671257 ;
+        rdf:type                schema:Book .
+
+:41     schema:aggregateRating  _:b1 ;
+        schema:keywords         "5"^^xsd:int ;
+        schema:numberOfPages    "320"^^xsd:int ;
+        schema:datePublished    "2026-02-03T07:00Z"^^xsd:date ;
+        schema:author           viaf:247174410922208501739 ;
+        rdf:type                schema:Book .
+
+_:b2    schema:ratingValue  "4.26"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b3    schema:ratingValue  "3.87"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:50160208660648621749
+        rdf:type  schema:Person .
+
+wd:Q545599  rdf:type  schema:DefinedTerm .
+
+viaf:7174694015226742824
+        rdf:type  schema:Person .
+
+:12     schema:aggregateRating  _:b4 ;
+        schema:keywords         "7"^^xsd:int ;
+        schema:genre            wd:Q121432200 ;
+        schema:numberOfPages    "416"^^xsd:int ;
+        schema:datePublished    "2025-11-04T07:00Z"^^xsd:date ;
+        schema:author           viaf:33168507104848490876 ;
+        rdf:type                schema:Book .
+
+:33     schema:aggregateRating  _:b5 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:numberOfPages    "400"^^xsd:int ;
+        schema:datePublished    "2026-05-19T06:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+_:b6    schema:ratingValue  "4.14"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b7    schema:ratingValue  "3.86"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:34150380595713372718
+        rdf:type  schema:Person .
+
+viaf:50363952  rdf:type  schema:Person .
+
+wd:Q590103  rdf:type  schema:DefinedTerm .
+
+_:b8    schema:ratingValue  "3.92"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:25     schema:aggregateRating  _:b9 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q3440959 ;
+        schema:numberOfPages    "288"^^xsd:int ;
+        schema:datePublished    "2026-02-10T07:00Z"^^xsd:date ;
+        schema:author           viaf:18152199275314282483 ;
+        rdf:type                schema:Book .
+
+:46     schema:aggregateRating  _:b10 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q860626 ;
+        schema:genre            wd:Q111019576 ;
+        schema:numberOfPages    "368"^^xsd:int ;
+        schema:datePublished    "2026-03-03T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+viaf:247174410922208501739
+        rdf:type  schema:Person .
+
+_:b11   schema:ratingValue  "4.57"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+wd:Q21775821  rdf:type  schema:Series .
+
+:4      schema:aggregateRating  _:b12 ;
+        schema:keywords         "1"^^xsd:int ;
+        schema:numberOfPages    "39"^^xsd:int ;
+        schema:datePublished    "2025-12-24T07:00Z"^^xsd:date ;
+        schema:author           viaf:72155564094913002359 ;
+        rdf:type                schema:Book .
+
+viaf:5170147727701964710001
+        rdf:type  schema:Person .
+
+_:b13   schema:ratingValue  "3.77"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:17     schema:aggregateRating  _:b14 ;
+        schema:isPartOf         wd:Q21775821 ;
+        schema:keywords         "2"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:numberOfPages    "200"^^xsd:int ;
+        schema:datePublished    "2025-11-19T07:00Z"^^xsd:date ;
+        schema:author           viaf:263138197 ;
+        schema:author           viaf:50363952 ;
+        rdf:type                schema:Book .
+
+_:b15   schema:ratingValue  "4.13"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:38     schema:aggregateRating  _:b16 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q7135551 ;
+        schema:genre            wd:Q1057172 ;
+        schema:numberOfPages    "416"^^xsd:int ;
+        schema:datePublished    "2026-01-27T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+viaf:91157523178927030754
+        rdf:type  schema:Person .
+
+viaf:139154074399911740317
+        rdf:type  schema:Person .
+
+viaf:26155767429427761783
+        rdf:type  schema:Person .
+
+wd:Q36192  rdf:type  schema:DefinedTerm .
+
+viaf:31173483823347230084
+        rdf:type  schema:Person .
+
+_:b17   schema:ratingValue  "3.72"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:30     schema:aggregateRating  _:b18 ;
+        schema:keywords         "6"^^xsd:int ;
+        schema:genre            wd:Q3440959 ;
+        schema:datePublished    "2026-04-30T06:00Z"^^xsd:date ;
+        schema:author           viaf:74171973895618031209 ;
+        rdf:type                schema:Book .
+
+_:b19   schema:ratingValue  "4.29"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+wd:Q115379382  rdf:type  schema:DefinedTerm .
+
+_:b20   schema:ratingValue  "3.63"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:42175777255216892982
+        rdf:type  schema:Person .
+
+:9      schema:aggregateRating  _:b21 ;
+        schema:keywords         "5"^^xsd:int ;
+        schema:genre            wd:Q36192 ;
+        schema:numberOfPages    "400"^^xsd:int ;
+        schema:datePublished    "2025-11-18T07:00Z"^^xsd:date ;
+        schema:author           viaf:179174410643808500658 ;
+        rdf:type                schema:Book .
+
+wd:Q860626  rdf:type  schema:DefinedTerm .
+
+_:b22   schema:ratingValue  "3.43"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:22     schema:isPartOf         wd:Q373933 ;
+        schema:genre            wd:Q725377 ;
+        schema:author           viaf:29836518 ;
+        schema:datePublished    "2025-11-18T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book ;
+        schema:author           viaf:14908050 ;
+        schema:aggregateRating  _:b23 ;
+        schema:numberOfPages    "136"^^xsd:int ;
+        schema:author           viaf:39493420 ;
+        schema:author           viaf:14079586 ;
+        schema:genre            wd:Q111019576 .
+
+:43     schema:aggregateRating  _:b24 ;
+        schema:keywords         "9"^^xsd:int ;
+        schema:genre            wd:Q36192 ;
+        schema:numberOfPages    "288"^^xsd:int ;
+        schema:datePublished    "2026-02-10T07:00Z"^^xsd:date ;
+        schema:author           viaf:211145541830196600299 ;
+        rdf:type                schema:Book .
+
+_:b25   schema:ratingValue  "4.03"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b26   schema:ratingValue  "4.2"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:250142840  rdf:type  schema:Person .
+
+:1      schema:aggregateRating  _:b27 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q108744207 ;
+        schema:genre            wd:Q136472 ;
+        schema:numberOfPages    "336"^^xsd:int ;
+        schema:datePublished    "2025-12-09T07:00Z"^^xsd:date ;
+        schema:author           viaf:34150380595713372718 ;
+        rdf:type                schema:Book .
+
+wd:Q121432200  rdf:type  schema:DefinedTerm .
+
+viaf:232506580  rdf:type  schema:Person .
+
+:14     schema:aggregateRating  _:b28 ;
+        schema:keywords         "5"^^xsd:int ;
+        schema:genre            wd:Q97452932 ;
+        schema:genre            wd:Q36192 ;
+        schema:datePublished    "2025-11-01T06:00Z"^^xsd:date ;
+        schema:author           viaf:53166002838375022997 ;
+        rdf:type                schema:Book .
+
+:35     schema:aggregateRating  _:b29 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q860626 ;
+        schema:numberOfPages    "448"^^xsd:int ;
+        schema:datePublished    "2026-02-10T07:00Z"^^xsd:date ;
+        schema:author           viaf:42175777255216892982 ;
+        rdf:type                schema:Book .
+
+_:b18   schema:ratingValue  "4.21"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b30   schema:ratingValue  "4.73"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b12   schema:ratingValue  "4.65"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+wd:Q102260654  rdf:type  schema:DefinedTerm .
+
+_:b28   schema:ratingValue  "3.9"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:27     schema:aggregateRating  _:b19 ;
+        schema:keywords         "7"^^xsd:int ;
+        schema:genre            wd:Q102260654 ;
+        schema:numberOfPages    "288"^^xsd:int ;
+        schema:datePublished    "2026-03-24T06:00Z"^^xsd:date ;
+        schema:author           viaf:20165326421216290000 ;
+        rdf:type                schema:Book .
+
+_:b9    schema:ratingValue  "3.26"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:48     schema:aggregateRating  _:b3 ;
+        schema:keywords         "6"^^xsd:int ;
+        schema:genre            wd:Q1057172 ;
+        schema:genre            wd:Q7135551 ;
+        schema:numberOfPages    "160"^^xsd:int ;
+        schema:datePublished    "2026-03-10T06:00Z"^^xsd:date ;
+        schema:author           viaf:8166955981446911086 ;
+        rdf:type                schema:Book .
+
+viaf:179174410643808500658
+        rdf:type  schema:Person .
+
+:6      schema:aggregateRating  _:b31 ;
+        schema:keywords         "8"^^xsd:int ;
+        schema:genre            wd:Q36192 ;
+        schema:numberOfPages    "267"^^xsd:int ;
+        schema:datePublished    "2025-11-11T07:00Z"^^xsd:date ;
+        schema:author           viaf:20165326421216290000 ;
+        rdf:type                schema:Book .
+
+wd:Q111019576  rdf:type  schema:DefinedTerm .
+
+_:b32   schema:ratingValue  "3.82"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:19     schema:aggregateRating  _:b33 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q545599 ;
+        schema:numberOfPages    "288"^^xsd:int ;
+        schema:datePublished    "2025-11-04T07:00Z"^^xsd:date ;
+        schema:author           viaf:58922018 ;
+        rdf:type                schema:Book .
+
+_:b23   schema:ratingValue  "4.13"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:40     schema:aggregateRating  _:b20 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:numberOfPages    "352"^^xsd:int ;
+        schema:datePublished    "2026-01-27T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+_:b5    schema:ratingValue  "4.25"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+wd:Q7135551  rdf:type  schema:DefinedTerm .
+
+:11     schema:aggregateRating  _:b22 ;
+        schema:keywords         "6"^^xsd:int ;
+        schema:genre            wd:Q7135551 ;
+        schema:genre            wd:Q36192 ;
+        schema:numberOfPages    "352"^^xsd:int ;
+        schema:datePublished    "2025-11-04T07:00Z"^^xsd:date ;
+        schema:author           viaf:309818868 ;
+        rdf:type                schema:Book .
+
+_:b14   schema:ratingValue  "4.07"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:32     schema:aggregateRating  _:b34 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:numberOfPages    "432"^^xsd:int ;
+        schema:datePublished    "2026-05-12T06:00Z"^^xsd:date ;
+        schema:author           viaf:75149617064103752411 ;
+        rdf:type                schema:Book .
+
+_:b35   schema:ratingValue  "4.14"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b36   schema:ratingValue  "3.99"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:14079586  rdf:type  schema:Person .
+
+viaf:245422437  rdf:type  schema:Person .
+
+viaf:263138197  rdf:type  schema:Person .
+
+_:b4    schema:ratingValue  "3.56"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:24     schema:aggregateRating  _:b37 ;
+        schema:keywords         "5"^^xsd:int ;
+        schema:genre            wd:Q3440959 ;
+        schema:numberOfPages    "304"^^xsd:int ;
+        schema:datePublished    "2026-02-03T07:00Z"^^xsd:date ;
+        schema:author           viaf:31173483823347230084 ;
+        rdf:type                schema:Book .
+
+:45     schema:aggregateRating  _:b38 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q7135551 ;
+        schema:datePublished    "2026-02-24T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+viaf:72155564094913002359
+        rdf:type  schema:Person .
+
+viaf:22168589814518220624
+        rdf:type  schema:Person .
+
+viaf:14908050  rdf:type  schema:Person .
+
+viaf:103144782707763876241
+        rdf:type  schema:Person .
+
+:3      schema:aggregateRating  _:b7 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q136472 ;
+        schema:genre            wd:Q7135551 ;
+        schema:numberOfPages    "352"^^xsd:int ;
+        schema:datePublished    "2025-12-09T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+viaf:54169017804466982422
+        rdf:type  schema:Person .
+
+_:b39   schema:ratingValue  "3.9"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:16     schema:aggregateRating  _:b17 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q102260654 ;
+        schema:genre            wd:Q121432200 ;
+        schema:numberOfPages    "368"^^xsd:int ;
+        schema:datePublished    "2025-11-11T07:00Z"^^xsd:date ;
+        schema:author           viaf:91157523178927030754 ;
+        rdf:type                schema:Book .
+
+_:b0    schema:ratingValue  "3.84"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:37     schema:aggregateRating  _:b11 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:datePublished    "2026-01-25T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+_:b40   schema:ratingValue  "3.88"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b31   schema:ratingValue  "4.3"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b10   schema:ratingValue  "4"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:58922018  rdf:type  schema:Person .
+
+_:b41   schema:ratingValue  "3.52"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:29     schema:aggregateRating  _:b6 ;
+        schema:keywords         "6"^^xsd:int ;
+        schema:genre            wd:Q545599 ;
+        schema:genre            wd:Q590103 ;
+        schema:numberOfPages    "320"^^xsd:int ;
+        schema:datePublished    "2026-04-21T06:00Z"^^xsd:date ;
+        schema:author           viaf:13172335048115442609 ;
+        rdf:type                schema:Book .
+
+_:b42   schema:ratingValue  "3.5"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:50     schema:aggregateRating  _:b43 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:genre            wd:Q7135551 ;
+        schema:numberOfPages    "320"^^xsd:int ;
+        schema:datePublished    "2026-03-17T06:00Z"^^xsd:date ;
+        schema:author           viaf:103144782707763876241 ;
+        rdf:type                schema:Book .
+
+_:b27   schema:ratingValue  "3.88"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:41172395491219192400
+        rdf:type  schema:Person .
+
+wd:Q108744207  rdf:type  schema:DefinedTerm .
+
+:8      schema:aggregateRating  _:b13 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:numberOfPages    "384"^^xsd:int ;
+        schema:datePublished    "2025-11-11T07:00Z"^^xsd:date ;
+        schema:author           viaf:22168589814518220624 ;
+        rdf:type                schema:Book .
+
+viaf:8166955981446911086
+        rdf:type  schema:Person .
+
+viaf:34671257  rdf:type  schema:Person .
+
+wd:Q3919251  rdf:type  schema:DefinedTerm .
+
+viaf:309818868  rdf:type  schema:Person .
+
+:21     schema:aggregateRating  _:b15 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q36192 ;
+        schema:genre            wd:Q108744207 ;
+        schema:numberOfPages    "297"^^xsd:int ;
+        schema:datePublished    "2025-11-01T06:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+:42     schema:aggregateRating  _:b36 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q3440959 ;
+        schema:genre            wd:Q115379382 ;
+        schema:numberOfPages    "416"^^xsd:int ;
+        schema:datePublished    "2026-02-03T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+_:b29   schema:ratingValue  "3.57"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:0      schema:aggregateRating  _:b44 ;
+        schema:keywords         "5"^^xsd:int ;
+        schema:genre            wd:Q97452932 ;
+        schema:numberOfPages    "432"^^xsd:int ;
+        schema:datePublished    "2025-12-30T07:00Z"^^xsd:date ;
+        schema:author           viaf:54169017804466982422 ;
+        rdf:type                schema:Book .
+
+:13     schema:aggregateRating  _:b8 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q136472 ;
+        schema:genre            wd:Q36192 ;
+        schema:numberOfPages    "352"^^xsd:int ;
+        schema:datePublished    "2025-11-25T07:00Z"^^xsd:date ;
+        schema:author           viaf:16166290475500462428 ;
+        rdf:type                schema:Book .
+
+_:b45   schema:ratingValue  "4"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:34     schema:aggregateRating  _:b2 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q3440959 ;
+        schema:numberOfPages    "160"^^xsd:int ;
+        schema:datePublished    "2026-05-26T06:00Z"^^xsd:date ;
+        schema:author           viaf:245422437 ;
+        rdf:type                schema:Book .
+
+_:b24   schema:ratingValue  "3.79"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:22163753609534272200
+        rdf:type  schema:Person .
+
+viaf:484174324720401411176
+        rdf:type  schema:Person .
+
+wd:Q97452932  rdf:type  schema:DefinedTerm .
+
+:26     schema:aggregateRating  _:b42 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:numberOfPages    "240"^^xsd:int ;
+        schema:datePublished    "2026-03-17T06:00Z"^^xsd:date ;
+        schema:author           viaf:250142840 ;
+        rdf:type                schema:Book .
+
+_:b37   schema:ratingValue  "4.15"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:47     schema:aggregateRating  _:b46 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q1057172 ;
+        schema:genre            wd:Q7135551 ;
+        schema:numberOfPages    "343"^^xsd:int ;
+        schema:datePublished    "2026-03-10T06:00Z"^^xsd:date ;
+        schema:author           viaf:484174324720401411176 ;
+        rdf:type                schema:Book .
+
+_:b16   schema:ratingValue  "3.43"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:5      schema:aggregateRating  _:b47 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:numberOfPages    "416"^^xsd:int ;
+        schema:datePublished    "2025-12-30T07:00Z"^^xsd:date ;
+        schema:author           viaf:5170147727701964710001 ;
+        rdf:type                schema:Book .
+
+viaf:74171973895618031209
+        rdf:type  schema:Person .
+
+viaf:47167198281267630843
+        rdf:type  schema:Person .
+
+_:b21   schema:ratingValue  "3.42"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:18     schema:aggregateRating  _:b45 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q115379382 ;
+        schema:genre            wd:Q121432200 ;
+        schema:datePublished    "2025-11-04T07:00Z"^^xsd:date ;
+        schema:author           viaf:26155767429427761783 ;
+        rdf:type                schema:Book .
+
+:39     schema:aggregateRating  _:b48 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q36192 ;
+        schema:genre            wd:Q1057172 ;
+        schema:numberOfPages    "142"^^xsd:int ;
+        schema:datePublished    "2026-01-27T07:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+_:b34   schema:ratingValue  "4.09"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+wd:Q725377  rdf:type  schema:DefinedTerm .
+
+_:b46   schema:ratingValue  "3.69"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:33168507104848490876
+        rdf:type  schema:Person .
+
+viaf:211145541830196600299
+        rdf:type  schema:Person .
+
+viaf:75149617064103752411
+        rdf:type  schema:Person .
+
+:10     schema:aggregateRating  _:b32 ;
+        schema:keywords         "5"^^xsd:int ;
+        schema:genre            wd:Q136472 ;
+        schema:genre            wd:Q115379382 ;
+        schema:genre            wd:Q1057172 ;
+        schema:numberOfPages    "336"^^xsd:int ;
+        schema:datePublished    "2025-11-04T07:00Z"^^xsd:date ;
+        schema:author           viaf:337173666112307392544 ;
+        rdf:type                schema:Book .
+
+viaf:53166002838375022997
+        rdf:type  schema:Person .
+
+:31     schema:aggregateRating  _:b40 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:numberOfPages    "160"^^xsd:int ;
+        schema:datePublished    "2026-05-12T06:00Z"^^xsd:date ;
+        schema:author           viaf:22163753609534272200 ;
+        rdf:type                schema:Book .
+
+wd:Q3440959  rdf:type  schema:DefinedTerm .
+
+_:b1    schema:ratingValue  "3.74"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b49   schema:ratingValue  "3.79"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:16166290475500462428
+        rdf:type  schema:Person .
+
+wd:Q1057172  rdf:type  schema:DefinedTerm .
+
+viaf:65896411  rdf:type  schema:Person .
+
+wd:Q136472  rdf:type  schema:DefinedTerm .
+
+:23     schema:aggregateRating  _:b50 ;
+        schema:keywords         "8"^^xsd:int ;
+        schema:genre            wd:Q545599 ;
+        schema:genre            wd:Q121432200 ;
+        schema:genre            wd:Q7135551 ;
+        schema:numberOfPages    "352"^^xsd:int ;
+        schema:datePublished    "2026-01-20T07:00Z"^^xsd:date ;
+        schema:author           viaf:139154074399911740317 ;
+        rdf:type                schema:Book .
+
+_:b50   schema:ratingValue  "3.95"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:29836518  rdf:type  schema:Person .
+
+:44     schema:aggregateRating  _:b30 ;
+        schema:keywords         "2"^^xsd:int ;
+        schema:genre            wd:Q3919251 ;
+        schema:numberOfPages    "351"^^xsd:int ;
+        schema:datePublished    "2026-02-17T07:00Z"^^xsd:date ;
+        schema:author           viaf:41172395491219192400 ;
+        rdf:type                schema:Book .
+
+_:b43   schema:ratingValue  "4.1"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:39493420  rdf:type  schema:Person .
+
+:2      schema:aggregateRating  _:b49 ;
+        schema:keywords         "8"^^xsd:int ;
+        schema:genre            wd:Q136472 ;
+        schema:genre            wd:Q590103 ;
+        schema:numberOfPages    "240"^^xsd:int ;
+        schema:datePublished    "2025-12-09T07:00Z"^^xsd:date ;
+        schema:author           viaf:65896411 ;
+        rdf:type                schema:Book .
+
+viaf:18152199275314282483
+        rdf:type  schema:Person .
+
+wd:Q373933  rdf:type  schema:Series .
+
+:15     schema:aggregateRating  _:b41 ;
+        schema:keywords         "3"^^xsd:int ;
+        schema:genre            wd:Q3238422 ;
+        schema:numberOfPages    "178"^^xsd:int ;
+        schema:datePublished    "2025-11-18T07:00Z"^^xsd:date ;
+        schema:author           viaf:7174694015226742824 ;
+        rdf:type                schema:Book .
+
+_:b33   schema:ratingValue  "3.61"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:36     schema:aggregateRating  _:b25 ;
+        schema:keywords         "4"^^xsd:int ;
+        schema:genre            wd:Q7135551 ;
+        schema:genre            wd:Q121432200 ;
+        schema:genre            wd:Q36192 ;
+        schema:numberOfPages    "336"^^xsd:int ;
+        schema:datePublished    "2026-04-28T06:00Z"^^xsd:date ;
+        schema:author           viaf:50160208660648621749 ;
+        rdf:type                schema:Book .
+
+_:b38   schema:ratingValue  "4.5"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b47   schema:ratingValue  "3.38"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+viaf:13172335048115442609
+        rdf:type  schema:Person .
+
+viaf:20165326421216290000
+        rdf:type  schema:Person .
+
+:28     schema:aggregateRating  _:b35 ;
+        schema:keywords         "7"^^xsd:int ;
+        schema:genre            wd:Q102260654 ;
+        schema:numberOfPages    "352"^^xsd:int ;
+        schema:datePublished    "2026-03-31T06:00Z"^^xsd:date ;
+        schema:author           viaf:47167198281267630843 ;
+        rdf:type                schema:Book .
+
+:49     schema:aggregateRating  _:b26 ;
+        schema:keywords         "1"^^xsd:int ;
+        schema:genre            wd:Q36192 ;
+        schema:numberOfPages    "171"^^xsd:int ;
+        schema:datePublished    "2026-03-15T06:00Z"^^xsd:date ;
+        rdf:type                schema:Book .
+
+_:b48   schema:ratingValue  "3.46"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+_:b44   schema:ratingValue  "3.64"^^xsd:int ;
+        rdf:type            schema:AggregateRating .
+
+:7      schema:aggregateRating  _:b39 ;
+        schema:keywords         "7"^^xsd:int ;
+        schema:genre            wd:Q545599 ;
+        schema:numberOfPages    "320"^^xsd:int ;
+        schema:datePublished    "2025-11-04T07:00Z"^^xsd:date ;
+        schema:author           viaf:232506580 ;
+        rdf:type                schema:Book .
+
+viaf:337173666112307392544
+        rdf:type  schema:Person .
